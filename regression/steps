@@ -1,0 +1,56 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+(.venv) PS C:\Users\manmariy\OneDrive - Cisco\Desktop\uptor002> cd '.\July_2026\day34_regression_flask withgithub\'
+(.venv) PS C:\Users\manmariy\OneDrive - Cisco\Desktop\uptor002\July_2026\day34_regression_flask withgithub> git init
+Initialized empty Git repository in C:/Users/manmariy/OneDrive - Cisco/Desktop/uptor002/July_2026/day34_regression_flask withgithub/.git/
+(.venv) PS C:\Users\manmariy\OneDrive - Cisco\Desktop\uptor002\July_2026\day34_regression_flask withgithub> git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+(.venv) PS C:\Users\manmariy\OneDrive - Cisco\Desktop\uptor002\July_2026\day34_regression_flask withgithub> git add .
+warning: in the working copy of 'regression/app.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'regression/train_model.py', LF will be replaced by CRLF the next time Git touches it
+(.venv) PS C:\Users\manmariy\OneDrive - Cisco\Desktop\uptor002\July_2026\day34_regression_flask withgithub> git commit -m "firstdeployflask"
+[master (root-commit) 028025c] firstdeployflask
+ Committer: Manimegalai Mariyappan -X (manmariy - HCL TECHNOLOGIES LIMITED at Cisco) <manmariy@cisco.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 47 insertions(+)
+ create mode 100644 regression/app.py
+ create mode 100644 regression/house_model.pkl
+ create mode 100644 regression/train_model.py
+(.venv) PS C:\Users\manmariy\OneDrive - Cisco\Desktop\uptor002\July_2026\day34_regression_flask withgithub> git branch -m development
+(.venv) PS C:\Users\manmariy\OneDrive - Cisco\Desktop\uptor002\July_2026\day34_regression_flask withgithub> git remote add origin https://github.com/manimegalaim2210-coder/uptor_flask_deployment.git
+(.venv) PS C:\Users\manmariy\OneDrive - Cisco\Desktop\uptor002\July_2026\day34_regression_flask withgithub> git push
+fatal: The current branch development has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin development
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+(.venv) PS C:\Users\manmariy\OneDrive - Cisco\Desktop\uptor002\July_2026\day34_regression_flask withgithub> git push --set-upstream origin development
+info: please complete authentication in your browser...
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 1.40 KiB | 287.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/manimegalaim2210-coder/uptor_flask_deployment.git
+ * [new branch]      development -> development
+branch 'development' set up to track 'origin/development'.
+(.venv) PS C:\Users\manmariy\OneDrive - Cisco\Desktop\uptor002\July_2026\day34_regression_flask withgithub>
