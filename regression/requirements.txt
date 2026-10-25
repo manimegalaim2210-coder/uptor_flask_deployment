@@ -1,0 +1,7 @@
+flask-development server
+pandas
+scikit-learn
+flask
+joblib
+gunicorn-gui development server
+cd
