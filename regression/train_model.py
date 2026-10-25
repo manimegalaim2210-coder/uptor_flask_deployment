@@ -14,6 +14,6 @@ y = df["price"]
 model = LinearRegression()
 model.fit(x, y)
 
-joblib.dump(model, "house_model.pkl")
+joblib.dump(model, "../house_model.pkl")
 
 print("Model saved successfully")
