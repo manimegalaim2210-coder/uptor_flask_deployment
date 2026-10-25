@@ -1,7 +1,14 @@
-flask-development server
+#flask-development server
+#pandas
+#scikit-learn
+#flask
+#joblib
+#gunicorn-gui development server
+#cd
+
+
 pandas
 scikit-learn
 flask
 joblib
-gunicorn-gui development server
-cd
+gunicorn
